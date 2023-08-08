@@ -1,4 +1,3 @@
-aircraft carrier
 airplane
 alarm clock
 ambulance
@@ -64,8 +63,8 @@ carrot
 castle
 cat
 ceiling fan
-cello
 cell phone
+cello
 chair
 chandelier
 church
@@ -161,14 +160,12 @@ kangaroo
 key
 keyboard
 knee
-knife
 ladder
 lantern
 laptop
 leaf
 leg
 light bulb
-lighter
 lighthouse
 lightning
 line
@@ -203,8 +200,8 @@ octopus
 onion
 oven
 owl
-paintbrush
 paint can
+paintbrush
 palm tree
 panda
 pants
@@ -241,7 +238,6 @@ rainbow
 rake
 remote control
 rhinoceros
-rifle
 river
 roller coaster
 rollerskates
@@ -298,7 +294,7 @@ swan
 sweater
 swing set
 sword
-syringe
+t-shirt
 table
 teapot
 teddy-bear
@@ -325,7 +321,6 @@ triangle
 trombone
 truck
 trumpet
-t-shirt
 umbrella
 underwear
 van
