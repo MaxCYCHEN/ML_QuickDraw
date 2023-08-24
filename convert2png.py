@@ -14,8 +14,8 @@ def f2cat(filename: str) -> str:
     return filename.split('.')[0]
 
 class convert2png():
-    def __init__(self, input_path='dataset/train_simplified_5/',
-                  output_path='dataset/simplified_small_bitmap_64/'):
+    def __init__(self, input_path='dataset/train_simplified_93nature/',
+                  output_path='dataset/simplified_small_bitmap_93nature/'):
         self.input_path = input_path
         self.output_path = output_path
 
@@ -86,17 +86,18 @@ class convert2png():
             plt.show(); 
             
 
-                       
+# Update these parameters
+IMG_SIZE = 64             # The size of output img
+NROWS = 120000            # Total data per categories
+VAL_PEC = 0.1             # Validation percentage
+TEST_PEC = 0.1            # Test percentage
+INPUT_PATH='dataset/train_simplified_93nature/'
+OUTPUT_PATH='dataset/simplified_small_bitmap_93nature/'                       
 
 # Main
 s = convert2png()
-categories = s.list_all_categories()
+categories = s.list_all_categories(INPUT_PATH, OUTPUT_PATH)
 print("Total categories: {}".format(len(categories)))
-
-IMG_SIZE = 64 # The size of output img
-NROWS = 100000 # Total data per categories
-VAL_PEC = 0.1
-TEST_PEC = 0.1
 
 for y, cat in tqdm(enumerate(categories)):
     df = s.read_training_csv(cat, nrows=NROWS)
